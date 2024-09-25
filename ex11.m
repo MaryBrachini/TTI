@@ -1,7 +1,8 @@
 clc;
 clear;
+pkg load image;
 
-imgLena = imread('Lena512.pbm');
+imgLena = imread('Lena512.bmp');
 
 invertido = imcomplement (imgLena);
 
