@@ -30,7 +30,7 @@ for i = 1:M
   endfor
 endfor
 
-imgJunto = cat(3,imgMensagem1, imgMensagem3, imgMensagem3);
+imgJunto = cat(3,imgMensagem1, imgMensagem2, imgMensagem3);
 
 imwrite(imgJunto,'marcaAulaCorida.bmp');
 
